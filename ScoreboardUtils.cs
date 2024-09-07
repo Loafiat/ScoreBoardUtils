@@ -18,7 +18,6 @@ namespace ScoreboardUtils
         private void Start()
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), "Lofiat.ScoreboardUtils");
-            SetPlayerNameColor("7624513DD7D1FA7F", "#AA1C00");
             GorillaTagger.OnPlayerSpawned(OnPlayerSpawned);
         }
 
